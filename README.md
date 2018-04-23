@@ -8,13 +8,6 @@ Install [EDP](https://github.com/ecomfe/edp):
 $ npm install -g edp
 ```
 
-Clone the `edp-build-fontmin-demo`:
-
-```
-$ git clone https://github.com/jsntn/edp-build-fontmin-demo
-$ cd edp-build-fontmin-demo
-```
-
 Install `edp-build-fontmin`:
 
 ```
