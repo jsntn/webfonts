@@ -1,12 +1,15 @@
 @font-face {
   font-family: 'NotoSansSC-Regular';
-  src: url('NotoSansSC-Regular.eot'); /* IE9*/
-  src: url('NotoSansSC-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('NotoSansSC-Regular.woff') format('woff'), /* chrome、firefox */
-  url('NotoSansSC-Regular.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('NotoSansSC-Regular.svg#NotoSansSC-Regular') format('svg'); /* iOS 4.1- */
+  src: url('./NotoSansSC-Regular.eot'); /* IE9*/
+  src: url('./NotoSansSC-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./NotoSansSC-Regular.woff') format('woff'), /* chrome、firefox */
+  url('./NotoSansSC-Regular.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('./NotoSansSC-Regular.svg#NotoSansSC-Regular') format('svg'); /* iOS 4.1- */
 }
 h1, pre {
   font-family: 'NotoSansSC-Regular';
   font-size: 2em;
+  -webkit-font-smoothing: antialiased;        /* 字体抗锯齿 */
+  -webkit-text-stroke-width: 0.2px;           /* 设置或检索对象中的文字的描边宽度。可取小数和 medium（描边宽度中等），thick（描边宽度粗），thin（描边宽度细）关键字。默认值为 0 */
+  -moz-osx-font-smoothing: grayscale;         /* 字体抗锯齿 */
 }

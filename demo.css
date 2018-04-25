@@ -9,4 +9,7 @@
 h1, pre {
   font-family: 'NotoSansSC-Regular';
   font-size: 2em;
+  -webkit-font-smoothing: antialiased;        /* 字体抗锯齿 */
+  -webkit-text-stroke-width: 0.2px;           /* 设置或检索对象中的文字的描边宽度。可取小数和 medium（描边宽度中等），thick（描边宽度粗），thin（描边宽度细）关键字。默认值为 0 */
+  -moz-osx-font-smoothing: grayscale;         /* 字体抗锯齿 */
 }
